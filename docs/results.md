@@ -159,11 +159,5 @@ K ∈ {1, 2, 3, 5}
 
 ---
 
-## Guided Links for Next Steps
 
-- **architecture.md**  
-- **config.md**  
-- **results templates**  
-
----
 
