@@ -31,11 +31,11 @@ This ensures reproducible results.
 
 ## **3. Decoding Pipeline**
 
-### **Step 1 — Drafter Generation**
+### **Step 1 - Drafter Generation**
 The drafter produces **K speculative tokens** using nucleus sampling (`top‑p`).  
 This encourages diversity and exploration.
 
-### **Step 2 — Target Verification**
+### **Step 2 - Target Verification**
 The target model evaluates all K tokens in a **single forward pass**, computing:
 
 - token ranks  
@@ -43,7 +43,7 @@ The target model evaluates all K tokens in a **single forward pass**, computing:
 - probability ratios  
 - nucleus membership  
 
-### **Step 3 — Acceptance Decision**
+### **Step 3 - Acceptance Decision**
 Each drafted token is evaluated against configurable acceptance rules:
 
 - **rank threshold**  
@@ -53,7 +53,7 @@ Each drafted token is evaluated against configurable acceptance rules:
 If accepted → appended to output.  
 If rejected → target model’s own next token is appended.
 
-### **Step 4 — Continue Decoding**
+### **Step 4 - Continue Decoding**
 The process repeats until:
 - EOS token  
 - max token limit  
