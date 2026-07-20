@@ -2,19 +2,4 @@
 
 | Version | Date       | Status       | Description                                                                 |
 |---------|------------|--------------|-----------------------------------------------------------------------------|
-| v0.0.1  | 2026-07-20 | Experimental | - Established foundational architecture for an accuracy‑oriented speculative decoding system  
-- Implemented full drafter–target integration  
-- Added shared tokenizer alignment  
-- Added deterministic decoding pathways  
-- Built modular pipeline scaffolding  
-- Implemented drafter proposal generation  
-- Implemented target‑model verification  
-- Added acceptance‑rule evaluation  
-- Added probability‑distribution inspection  
-- Added fallback token substitution  
-- Added baseline decoding mode for controlled comparisons  
-- Created initial configuration schema  
-- Added structured documentation (experiment design, methodology, acceptance logic, ablation planning)  
-- Added reproducibility constraints (fixed seeds, consistent prompt formatting)  
-- Defined project research scope and minimal functional substrate for accuracy experiments  
-- Established architectural backbone for future ablations and evaluation extensions   |
+| v0.0.1  | 2026-07-20 | Experimental |  Established foundational architecture for an accuracy‑oriented speculative decoding system; implemented full drafter–target integration; aligned shared tokenizer across both models; added deterministic decoding pathways; built modular pipeline scaffolding; implemented drafter proposal generation; implemented target‑model verification; added acceptance‑rule evaluation; added probability‑distribution inspection; added fallback token substitution; added baseline decoding mode for controlled comparisons; created initial configuration schema; added structured documentation covering experiment design, methodology, acceptance logic, and ablation planning; added reproducibility constraints including fixed seeds and consistent prompt formatting; defined project research scope and minimal functional substrate for accuracy experiments; established architectural backbone for future ablations and evaluation extensions.  |
