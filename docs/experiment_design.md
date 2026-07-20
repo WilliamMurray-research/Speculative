@@ -2,7 +2,7 @@
 
 ## **1. Purpose**
 
-This experiment investigates whether **speculative decoding**—traditionally used for speed—can instead be applied to **improve accuracy** in language model generation. The design evaluates a two‑stage decoding pipeline using:
+This experiment investigates whether **speculative decoding** - traditionally used for speed—can instead be applied to **improve accuracy** in language model generation. The design evaluates a two‑stage decoding pipeline using:
 
 - **Drafter:** Gemma 3 270M  
 - **Target:** Gemma 3 1B  
@@ -101,7 +101,7 @@ Each task has a clear, objective correctness criterion.
 - Strict acceptance rules should maintain or improve accuracy.  
 - Larger K may increase diversity but reduce acceptance rate.  
 - Probability-ratio acceptance may outperform rank-only acceptance.  
-- Some tasks may show no improvement—important for falsifiability.
+- Some tasks may show no improvement - important for falsifiability.
 
 ---
 
