@@ -122,6 +122,8 @@ docs/
   methodology.md
   acceptance_rules.md
   evaluation_plan.md
+  architecture.md
+  config.md
   results/
     baseline_vs_speculative.md
   ablations/
