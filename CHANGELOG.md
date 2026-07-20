@@ -2,20 +2,19 @@
 
 | Version | Date       | Status       | Description                                                                 |
 |---------|------------|--------------|-----------------------------------------------------------------------------|
-| v0.0.1  | 2026-07-20 | Experimental | Established the foundational architecture for an accuracy‑oriented speculative decoding system, including full drafter–target integration<br>
-shared tokenizer alignment<br>
-deterministic decoding pathways<br>
-and modular pipeline scaffolding.
-
-Implemented core components: drafter proposal generation<br>
-target‑model verification<br>
-acceptance‑rule evaluation<br>
-probability‑distribution inspection<br>
-and fallback token substitution.
-
-Added baseline decoding mode for controlled comparisons<br>
-initial configuration schema<br>
-structured documentation covering experiment design, methodology, acceptance logic, and ablation planning<br>
-and reproducibility constraints such as fixed seeds and consistent prompt formatting.
-
- |
+| v0.0.1  | 2026-07-20 | Experimental | - Established foundational architecture for an accuracy‑oriented speculative decoding system  
+- Implemented full drafter–target integration  
+- Added shared tokenizer alignment  
+- Added deterministic decoding pathways  
+- Built modular pipeline scaffolding  
+- Implemented drafter proposal generation  
+- Implemented target‑model verification  
+- Added acceptance‑rule evaluation  
+- Added probability‑distribution inspection  
+- Added fallback token substitution  
+- Added baseline decoding mode for controlled comparisons  
+- Created initial configuration schema  
+- Added structured documentation (experiment design, methodology, acceptance logic, ablation planning)  
+- Added reproducibility constraints (fixed seeds, consistent prompt formatting)  
+- Defined project research scope and minimal functional substrate for accuracy experiments  
+- Established architectural backbone for future ablations and evaluation extensions   |
