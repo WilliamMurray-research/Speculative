@@ -23,7 +23,7 @@ The project is intentionally small, but built with research discipline and repro
 
 Traditional autoregressive decoding explores only a single continuation at each step. This limits the model’s ability to consider alternative reasoning paths or factual interpretations.
 
-Speculative decoding introduces a second model — the **drafter** — that proposes multiple candidate tokens. The **target** model then evaluates these candidates in parallel and accepts only those that align with its own distribution.
+Speculative decoding introduces a second model - the **drafter** - that proposes multiple candidate tokens. The **target** model then evaluates these candidates in parallel and accepts only those that align with its own distribution.
 
 This creates a hybrid of:
 
@@ -48,11 +48,11 @@ This may reduce hallucinations, improve reasoning consistency, and produce more 
 
 ## **Architecture**
 
-### **Stage 1 — Drafter (Gemma 3 270M)**  
+### **Stage 1 - Drafter (Gemma 3 270M)**  
 Generates *K* speculative tokens using nucleus sampling.  
 Small size encourages diversity.
 
-### **Stage 2 — Target (Gemma 3 1B)**  
+### **Stage 2 - Target (Gemma 3 1B)**  
 Evaluates the drafter’s proposals in a single forward pass.  
 Tokens are accepted only if they meet strict probability‑based criteria.
 
