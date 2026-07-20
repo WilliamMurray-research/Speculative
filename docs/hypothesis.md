@@ -74,7 +74,7 @@ Thresholds applied to drafter tokens:
 *   **top-p nucleus threshold**
 *   **hybrid combinations**
 
-*See [acceptance rules](link-to-acceptance-rules) for details.*
+*See [acceptance rules]([link-to-acceptance-rules](https://github.com/WilliamMurray-research/Speculative/blob/main/docs/acceptance_rules.md)) for details.*
 
 ---
 
