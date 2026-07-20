@@ -117,6 +117,18 @@ This makes it a natural fit for multi‑model decoding experiments.
 ## **Repository Structure**
 
 ```
+docs/
+  experiment_design.md
+  methodology.md
+  acceptance_rules.md
+  evaluation_plan.md
+  results/
+    baseline_vs_speculative.md
+  ablations/
+    draft_length.md
+    acceptance_thresholds.md
+  roadmap.md
+
 /src
   drafter.py
   target.py
@@ -130,6 +142,7 @@ This makes it a natural fit for multi‑model decoding experiments.
 /data
   eval_questions.json
 
+CHANGELOG.md
 README.md
 LICENSE
 ```
