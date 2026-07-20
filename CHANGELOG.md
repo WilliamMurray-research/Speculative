@@ -2,7 +2,7 @@
 
 | Version | Date       | Status       | Description                                                                 |
 |---------|------------|--------------|-----------------------------------------------------------------------------|
-| 0.1.0   | 2026-07-20 | Experimental | Initial project setup: added README, repo structure, docs plan, and dataset |
+| 0.0.1   | 2026-07-20 | Experimental | Initial project setup | added README | added Roadmap |
 
 ---
 
